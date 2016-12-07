@@ -1,0 +1,127 @@
+Allosaurus Rider 4.15
+Ally Encampment 0.55
+Assault Formation 1.14
+Battlefield Forge 1.11
+Boundless Realms 2.99
+Bygone Bishop 0.76
+Champion of the Parish 2.24
+Choked Estuary 1.73
+Collective Effort 0.57
+Conduit of Ruin 0.67
+Contagion Engine 11.98
+Counterflux 0.51
+Dark Salvation 0.52
+Darksteel Forge 5.79
+Day's Undoing 3.54
+Deathmist Raptor 1.51
+Depala, Pilot Exemplar 0.99
+Distended Mindbender 0.92
+Dragon Tempest 1.02
+Dragonskull Summit 2.5
+Dromoka's Command 1.56
+Echo Mage 0.55
+Eidolon of Countless Battles 0.63
+Elbrus, the Binding Blade 4.06
+Emrakul, the Promised End 19.24
+Enchanted Evening 4.46
+Ephara, God of the Polis 1.75
+Epic Experiment 0.77
+Erebos's Titan 0.9
+Exotic Orchard 2.94
+Fabricate 2.56
+Falkenrath Gorger 1.12
+Fatespinner 2.7
+Genesis Wave 7.0
+Ghost Quarter 1.08
+Gilded Lotus 9.23
+Glare of Subdual 1.05
+Goblin Bushwhacker 1.09
+Goblin Dark-Dwellers 1.01
+Goblin King 1.98
+Goblin Rabblemaster 2.19
+Green Sun's Zenith 5.09
+Grimoire of the Dead 3.27
+Hallowed Fountain 6.94
+Heliod, God of the Sun 3.54
+Herald of Leshrac 2.85
+Hero of Iroas 0.71
+Hex Parasite 0.56
+Hissing Quagmire 3.37
+Hythonia the Cruel 0.69
+Imprisoned in the Moon 0.51
+Indomitable Ancients 2.97
+Intet, the Dreamer 2.24
+Inverter of Truth 0.7
+Jace, the Living Guildpact 2.62
+Jin-Gitaxias, Core Augur 13.06
+Kalitas, Bloodchief of Ghet 7.23
+Kambal, Consul of Allocation 0.58
+Kiki-Jiki, Mirror Breaker 13.2
+Kiln Fiend 1.04
+Kiora, Master of the Depths 2.63
+Knight Exemplar 2.89
+Knight of the Reliquary 9.03
+Kozilek, Butcher of Truth 20.98
+Legion's Initiative 1.45
+Liege of the Tangle 3.42
+Lighthouse Chronologist 9.83
+Lord of the Void 3.74
+Loxodon Smiter 1.58
+Master of Cruelties 4.58
+Mirrorweave 2.19
+Monastery Siege 0.58
+Mutagenic Growth 0.95
+Needle Spires 3.92
+Nicol Bolas, Planeswalker 9.41
+Nissa, Worldwaker 9.42
+Obelisk of Urd 2.45
+Oblivion Sower 1.38
+Odric, Master Tactician 1.63
+Ojutai's Command 1.24
+Order of Whiteclay 2.37
+Panoptic Mirror 3.14
+Pharika, God of Affliction 2.19
+Primalcrux 6.61
+Prismatic Omen 14.68
+Realms Uncharted 2.59
+Reflector Mage 1.07
+Reforge the Soul 2.15
+Rootbound Crag 1.84
+Ruinous Path 1.49
+Sarkhan Vol 10.73
+Seasons Past 1.22
+Seismic Assault 1.69
+Serum Visions 3.03
+Shadowborn Demon 1.0
+Shambling Vent 3.13
+Shivan Reef 2.24
+Sin Prodder 0.53
+Smoldering Marsh 28.47
+Sphinx's Tutelage 1.53
+Splinter Twin 3.56
+Stasis Snare 0.93
+Stirring Wildwood 1.93
+Stitch in Time 3.56
+Temporal Extortion 3.99
+Teneb, the Harvester 1.64
+Thespian's Stage 2.72
+Thopter Assembly 0.54
+Thopter Spy Network 0.61
+Thunderbreak Regent 1.09
+Tidebinder Mage 0.83
+Time Warp 17.85
+Toolcraft Exemplar 1.4
+Tree of Perdition 2.62
+Tree of Redemption 2.65
+Ulamog, the Infinite Gyre 16.58
+Umbra Mystic 0.9
+Undergrowth Champion 1.08
+Urza's Mine 3.23
+Urza's Power Plant 3.19
+Urza's Tower 3.58
+Vampire Nocturnus 5.09
+Wandering Fumarole 5.83
+Witchstalker 0.54
+Woodland Bellower 1.14
+Worldspine Wurm 4.6
+Zurgo Bellstriker 0.58

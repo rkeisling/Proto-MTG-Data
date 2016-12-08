@@ -1,10 +1,10 @@
 from requests import get
 
 url_file = {
-    'https://www.mtggoldfish.com/prices/paper/standard': 'standard.txt',
-    'https://www.mtggoldfish.com/prices/paper/modern_two': 'modern_two.txt',
-    'https://www.mtggoldfish.com/prices/paper/modern_one': 'modern_one.txt',
-    'https://deckbox.org/sets/1029760/export?s=&f=&o=': 'inventory.txt'
+    'https://www.mtggoldfish.com/prices/paper/standard': 'standard.html',
+    'https://www.mtggoldfish.com/prices/paper/modern_two': 'modern_two.html',
+    'https://www.mtggoldfish.com/prices/paper/modern_one': 'modern_one.html',
+    'https://deckbox.org/sets/1029760/export?s=&f=&o=': 'inventory.html'
 }
 
 

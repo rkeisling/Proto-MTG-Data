@@ -1,8 +1,15 @@
 import bs4
+import datetime
+
+
+def getFilename():
+    formatted_date = datetime.datetime.now().strftime('%A %d %B %Y')
+    date_list = formatted_date.split()
+    return '{0}{1}.txt'.format(date_list[2].lower(), date_list[1])
 
 
 def processInventory():
-    the_file = open('inventory.txt', 'r')
+    the_file = open('inventory.html', 'r')
     inventory = the_file.read()
     num_dict = {}
     soup = bs4.BeautifulSoup(inventory, 'html.parser')
@@ -15,11 +22,11 @@ def processInventory():
 
 
 def processPrices():
-    the_file = open('standard.txt', 'r')
+    the_file = open('standard.html', 'r')
     standard_gold = the_file.read()
-    the_file_2 = open('modern_one.txt', 'r')
+    the_file_2 = open('modern_one.html', 'r')
     modern_one = the_file_2.read()
-    the_file_3 = open('modern_two.txt', 'r')
+    the_file_3 = open('modern_two.html', 'r')
     modern_two = the_file_3.read()
     price_dict = {}
     stn_soup = bs4.BeautifulSoup(standard_gold, 'html.parser')
@@ -43,10 +50,15 @@ def processPrices():
 
     return price_dict
 
+
+def sortWriteTo(name_of_file, what_to_write):
+    the_file = open(name_of_file, 'w')
+    what_to_write = sorted(what_to_write)
+    the_file.write('\n'.join(what_to_write))
+
+
 if __name__ == '__main__':
-    the_file = open('december7.txt', 'w')
     inventory = processInventory()
     prices = processPrices()
     str_to_join = [each + ' ' + str(prices[each]) for each in prices if each in inventory]
-    str_to_join = sorted(str_to_join)
-    the_file.write('\n'.join(str_to_join))
+    sortWriteTo(getFilename(), str_to_join)

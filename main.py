@@ -3,9 +3,7 @@ import datetime
 
 
 def getFilename():
-    formatted_date = datetime.datetime.now().strftime('%A %d %B %Y')
-    date_list = formatted_date.split()
-    return '{0}{1}.txt'.format(date_list[2].lower(), date_list[1])
+    return datetime.datetime.now().strftime('%B%d.txt')
 
 
 def processInventory():
@@ -60,5 +58,5 @@ def sortWriteTo(name_of_file, what_to_write):
 if __name__ == '__main__':
     inventory = processInventory()
     prices = processPrices()
-    str_to_join = [each + ' ' + str(prices[each]) for each in prices if each in inventory]
+    str_to_join = [each + ' ' + str(prices[each]) + ' ' + str(inventory[each]) for each in prices if each in inventory]
     sortWriteTo(getFilename(), str_to_join)

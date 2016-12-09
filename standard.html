@@ -20,11 +20,11 @@
 <link href='//assets1.mtggoldfish.com/assets/goldfish-64-f5b29fefb4ab86245883253afa5faffc2ffae42f26cd0291e620c074f354b3a6.png' rel='apple-touch-icon-precomposed'>
 <link href='//assets1.mtggoldfish.com/assets/goldfish-32-22599602a047942143b34b034de85b0968d377caf56ff4a12c06146a4c13b989.png' rel='shortcut icon' type='image/png'>
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"5bc503bb75","applicationID":"5132532","transactionName":"cFYLQBdeXQpQFBZeX19QBFoEHkEUXAVcbVpaShE=","queueTime":0,"applicationTime":21,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"5bc503bb75","applicationID":"5132532","transactionName":"cFYLQBdeXQpQFBZeX19QBFoEHkEUXAVcbVpaShE=","queueTime":0,"applicationTime":23,"agent":""}</script>
 <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
 <meta content='width=device-width, initial-scale=1' name='viewport'>
 <meta content="authenticity_token" name="csrf-param" />
-<meta content="GzRKvmHofB7gs1bNI616J8aRF2kxyRUzrFk8f61hC30=" name="csrf-token" />
+<meta content="yi2ph/XTgRdA9mmQrER7Cgnxm+4D3tXGZeG8DU/l5ww=" name="csrf-token" />
 <link href="//assets1.mtggoldfish.com/assets/application-9e511b4586714969719a74ea06df93467442729a0b862150f298ff9f2820b45a.css" media="all" rel="stylesheet" />
 <link href="//assets1.mtggoldfish.com/assets/print-1fe0d8ad1328b3992384c1986cf97e97bbf4dffb61711197f07987d2c32ff0d1.css" media="print" rel="stylesheet" />
 <script>(function() {
@@ -1545,7 +1545,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Ajani%2BUnyielding%2B%255BAER%255D.jpg" data-html="true" data-trigger="hover" href="/price/Aether+Revolt/Ajani+Unyielding#paper" rel="popover">Ajani Unyielding</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-18.93
+18.80
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1563,7 +1563,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Heart%2Bof%2BKiran%2B%255BAER%255D.jpg" data-html="true" data-trigger="hover" href="/price/Aether+Revolt/Heart+of+Kiran#paper" rel="popover">Heart of Kiran</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-17.49
+17.25
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1572,7 +1572,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Tezzeret%252C%2BMaster%2Bof%2BMetal%2B%255BAER%255D.jpg" data-html="true" data-trigger="hover" href="/price/Aether+Revolt/Tezzeret+Master+of+Metal#paper" rel="popover">Tezzeret, Master of Metal</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-8.98
+11.97
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1584,34 +1584,34 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Battle%2Bat%2Bthe%2BBridge%2B%255BAER%255D.jpg" data-html="true" data-trigger="hover" href="/price/Aether+Revolt/Battle+at+the+Bridge#paper" rel="popover">Battle at the Bridge</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.56
+1.20
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Dark%2BIntimations%2B%255BAER%255D.jpg" data-html="true" data-trigger="hover" href="/price/Aether+Revolt/Dark+Intimations#paper" rel="popover">Dark Intimations</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.86
+3.30
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Disallow%2B%255BAER%255D.jpg" data-html="true" data-trigger="hover" href="/price/Aether+Revolt/Disallow#paper" rel="popover">Disallow</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-6.90
+6.95
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Pia%2527s%2BRevolution%2B%255BAER%255D.jpg" data-html="true" data-trigger="hover" href="/price/Aether+Revolt/Pias+Revolution#paper" rel="popover">Pia&#39;s Revolution</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.58
+1.43
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1620,7 +1620,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Quicksmith%2BRebel%2B%255BAER%255D.jpg" data-html="true" data-trigger="hover" href="/price/Aether+Revolt/Quicksmith+Rebel#paper" rel="popover">Quicksmith Rebel</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.99
+1.63
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1629,16 +1629,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Scrap%2BTrawler%2B%255BAER%255D.jpg" data-html="true" data-trigger="hover" href="/price/Aether+Revolt/Scrap+Trawler#paper" rel="popover">Scrap Trawler</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.99
+3.11
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Yahenni%2527s%2BExpertise%2B%255BAER%255D.jpg" data-html="true" data-trigger="hover" href="/price/Aether+Revolt/Yahennis+Expertise#paper" rel="popover">Yahenni&#39;s Expertise</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-9.47
+8.97
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1650,9 +1650,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Trophy%2BMage%2B%255BAER%255D.jpg" data-html="true" data-trigger="hover" href="/price/Aether+Revolt/Trophy+Mage#paper" rel="popover">Trophy Mage</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.99
+0.74
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -1699,7 +1699,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Aetherworks%2BMarvel%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Aetherworks+Marvel#paper" rel="popover">Aetherworks Marvel</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-7.99
+7.96
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1710,14 +1710,14 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 3.68
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Cataclysmic%2BGearhulk%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Cataclysmic+Gearhulk#paper" rel="popover">Cataclysmic Gearhulk</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.44
+2.40
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1726,18 +1726,18 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Chandra%252C%2BPyrogenius%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Chandra+Pyrogenius#paper" rel="popover">Chandra, Pyrogenius</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.75
+3.74
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Chandra%252C%2BTorch%2Bof%2BDefiance%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Chandra+Torch+of+Defiance#paper" rel="popover">Chandra, Torch of Defiance</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-19.96
+19.98
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -1753,7 +1753,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Demon%2Bof%2BDark%2BSchemes%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Demon+of+Dark+Schemes#paper" rel="popover">Demon of Dark Schemes</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.62
+1.59
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1762,16 +1762,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Dovin%2BBaan%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Dovin+Baan#paper" rel="popover">Dovin Baan</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-4.99
+4.95
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Metallurgic%2BSummonings%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Metallurgic+Summonings#paper" rel="popover">Metallurgic Summonings</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.80
+2.79
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1780,16 +1780,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Nissa%252C%2BNature%2527s%2BArtisan%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Nissa+Natures+Artisan#paper" rel="popover">Nissa, Nature&#39;s Artisan</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-4.98
+4.92
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Nissa%252C%2BVital%2BForce%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Nissa+Vital+Force#paper" rel="popover">Nissa, Vital Force</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-6.77
+6.74
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1798,16 +1798,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Noxious%2BGearhulk%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Noxious+Gearhulk#paper" rel="popover">Noxious Gearhulk</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-6.30
+6.25
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Rashmi%252C%2BEternities%2BCrafter%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Rashmi+Eternities+Crafter#paper" rel="popover">Rashmi, Eternities Crafter</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.80
+1.79
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1816,7 +1816,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Saheeli%2BRai%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Saheeli+Rai#paper" rel="popover">Saheeli Rai</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-5.18
+5.15
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1825,9 +1825,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Skysovereign%252C%2BConsul%2BFlagship%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Skysovereign+Consul+Flagship#paper" rel="popover">Skysovereign, Consul Flagship</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-6.05
+6.00
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -1836,14 +1836,14 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 15.00
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Verdurous%2BGearhulk%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Verdurous+Gearhulk#paper" rel="popover">Verdurous Gearhulk</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-8.69
+8.52
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1855,9 +1855,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Aetherflux%2BReservoir%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Aetherflux+Reservoir#paper" rel="popover">Aetherflux Reservoir</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.00
+0.99
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -1873,7 +1873,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Blooming%2BMarsh%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Blooming+Marsh#paper" rel="popover">Blooming Marsh</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.81
+3.79
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1882,7 +1882,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Bomat%2BCourier%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Bomat+Courier#paper" rel="popover">Bomat Courier</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.67
+0.66
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1891,7 +1891,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Botanical%2BSanctum%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Botanical+Sanctum#paper" rel="popover">Botanical Sanctum</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.17
+3.11
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1900,7 +1900,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Bristling%2BHydra%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Bristling+Hydra#paper" rel="popover">Bristling Hydra</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.61
+1.59
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1909,7 +1909,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Concealed%2BCourtyard%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Concealed+Courtyard#paper" rel="popover">Concealed Courtyard</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.61
+3.57
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1918,7 +1918,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Cultivator%2527s%2BCaravan%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Cultivators+Caravan#paper" rel="popover">Cultivator&#39;s Caravan</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.16
+1.15
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1927,7 +1927,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Depala%252C%2BPilot%2BExemplar%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Depala+Pilot+Exemplar#paper" rel="popover">Depala, Pilot Exemplar</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.97
+0.95
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1945,7 +1945,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Electrostatic%2BPummeler%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Electrostatic+Pummeler#paper" rel="popover">Electrostatic Pummeler</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.05
+2.00
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1954,7 +1954,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Fleetwheel%2BCruiser%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Fleetwheel+Cruiser#paper" rel="popover">Fleetwheel Cruiser</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.95
+0.92
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1963,16 +1963,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Fumigate%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Fumigate#paper" rel="popover">Fumigate</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.57
+1.55
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Gonti%252C%2BLord%2Bof%2BLuxury%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Gonti+Lord+of+Luxury#paper" rel="popover">Gonti, Lord of Luxury</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.53
+0.52
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -1981,9 +1981,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Inspiring%2BVantage%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Inspiring+Vantage#paper" rel="popover">Inspiring Vantage</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-4.90
+4.85
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -1999,7 +1999,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Kambal%252C%2BConsul%2Bof%2BAllocation%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Kambal+Consul+of+Allocation#paper" rel="popover">Kambal, Consul of Allocation</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.57
+0.56
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2008,16 +2008,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Lathnu%2BHellion%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Lathnu+Hellion#paper" rel="popover">Lathnu Hellion</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.79
+0.78
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Metalwork%2BColossus%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Metalwork+Colossus#paper" rel="popover">Metalwork Colossus</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.21
+1.20
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2026,9 +2026,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Panharmonicon%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Panharmonicon#paper" rel="popover">Panharmonicon</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-4.31
+4.32
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2062,16 +2062,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Smuggler%2527s%2BCopter%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Smugglers+Copter#paper" rel="popover">Smuggler&#39;s Copter</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-11.66
+11.53
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Spirebluff%2BCanal%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Spirebluff+Canal#paper" rel="popover">Spirebluff Canal</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-8.21
+8.05
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2080,7 +2080,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Toolcraft%2BExemplar%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Toolcraft+Exemplar#paper" rel="popover">Toolcraft Exemplar</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.39
+1.37
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2089,9 +2089,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Verdant%2BCrescendo%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Verdant+Crescendo#paper" rel="popover">Verdant Crescendo</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.82
+0.81
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2101,7 +2101,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Aether%2BHub%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Aether+Hub#paper" rel="popover">Aether Hub</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.70
+2.66
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2112,7 +2112,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.92
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2121,7 +2121,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.64
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2137,7 +2137,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Harnessed%2BLightning%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Harnessed+Lightning#paper" rel="popover">Harnessed Lightning</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.94
+1.90
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2158,9 +2158,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Flame%2BLash%2B%255BKLD%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh/Flame+Lash#paper" rel="popover">Flame Lash</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.70
+0.71
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2170,7 +2170,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Kaladesh%2BBooster%2BBox%2B%255BSEALED%255D.jpg" data-html="true" data-trigger="hover" href="/price/Sealed+Product/Kaladesh+Booster+Box#paper" rel="popover">Kaladesh Booster Box</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-91.95
+91.00
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2181,7 +2181,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 13.45
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2216,45 +2216,45 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Cataclysmic%2BGearhulk%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Cataclysmic+Gearhulk#paper" rel="popover">Cataclysmic Gearhulk</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-30.41
+30.28
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Champion%2527s%2BHelm%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Champions+Helm#paper" rel="popover">Champion&#39;s Helm</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-26.12
+25.94
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Chromatic%2BLantern%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Chromatic+Lantern#paper" rel="popover">Chromatic Lantern</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-59.57
+59.96
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Chrome%2BMox%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Chrome+Mox#paper" rel="popover">Chrome Mox</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-44.99
+44.97
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Cloudstone%2BCurio%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Cloudstone+Curio#paper" rel="popover">Cloudstone Curio</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-37.42
+37.49
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2279,7 +2279,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Gauntlet%2Bof%2BPower%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Gauntlet+of+Power#paper" rel="popover">Gauntlet of Power</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-36.90
+36.95
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2288,25 +2288,25 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Hangarback%2BWalker%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Hangarback+Walker#paper" rel="popover">Hangarback Walker</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-35.97
+35.00
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Lightning%2BGreaves%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Lightning+Greaves#paper" rel="popover">Lightning Greaves</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-50.00
+49.99
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Lotus%2BPetal%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Lotus+Petal#paper" rel="popover">Lotus Petal</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-76.94
+75.78
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2315,34 +2315,34 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Mana%2BCrypt%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Mana+Crypt#paper" rel="popover">Mana Crypt</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-135.55
+135.27
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Mana%2BVault%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Mana+Vault#paper" rel="popover">Mana Vault</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-130.80
+131.03
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Mind%2527s%2BEye%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Minds+Eye#paper" rel="popover">Mind&#39;s Eye</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-32.13
+32.00
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Mox%2BOpal%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Mox+Opal#paper" rel="popover">Mox Opal</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-108.59
+106.69
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2351,7 +2351,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Noxious%2BGearhulk%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Noxious+Gearhulk#paper" rel="popover">Noxious Gearhulk</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-44.83
+44.80
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2360,25 +2360,25 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Painter%2527s%2BServant%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Painters+Servant#paper" rel="popover">Painter&#39;s Servant</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-40.91
+40.99
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Rings%2Bof%2BBrighthearth%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Rings+of+Brighthearth#paper" rel="popover">Rings of Brighthearth</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-46.36
+45.99
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Scroll%2BRack%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Scroll+Rack#paper" rel="popover">Scroll Rack</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-50.98
+49.99
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2387,16 +2387,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sculpting%2BSteel%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Sculpting+Steel#paper" rel="popover">Sculpting Steel</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-34.99
+35.00
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sol%2BRing%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Sol+Ring#paper" rel="popover">Sol Ring</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-131.00
+132.35
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2405,7 +2405,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Solemn%2BSimulacrum%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Solemn+Simulacrum#paper" rel="popover">Solemn Simulacrum</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-57.50
+57.37
 
 <span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
@@ -2414,25 +2414,25 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Static%2BOrb%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Static+Orb#paper" rel="popover">Static Orb</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-29.34
+29.73
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Steel%2BOverseer%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Steel+Overseer#paper" rel="popover">Steel Overseer</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-49.92
+49.85
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sword%2Bof%2BFeast%2Band%2BFamine%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Sword+of+Feast+and+Famine#paper" rel="popover">Sword of Feast and Famine</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-83.19
+82.00
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2441,7 +2441,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sword%2Bof%2BFire%2Band%2BIce%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Sword+of+Fire+and+Ice#paper" rel="popover">Sword of Fire and Ice</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-83.95
+83.68
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2450,7 +2450,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sword%2Bof%2BLight%2Band%2BShadow%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Sword+of+Light+and+Shadow#paper" rel="popover">Sword of Light and Shadow</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-79.24
+78.41
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2461,16 +2461,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 56.95
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Verdurous%2BGearhulk%2B%255BMS2%255D.jpg" data-html="true" data-trigger="hover" href="/price/Kaladesh+Inventions:Foil/Verdurous+Gearhulk#paper" rel="popover">Verdurous Gearhulk</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-48.39
+47.25
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2487,9 +2487,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Decimator%2Bof%2Bthe%2BProvinces%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Decimator+of+the+Provinces#paper" rel="popover">Decimator of the Provinces</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.91
+1.89
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2505,16 +2505,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Emrakul%252C%2Bthe%2BPromised%2BEnd%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Emrakul+the+Promised+End#paper" rel="popover">Emrakul, the Promised End</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-19.14
+19.00
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Gisa%2Band%2BGeralf%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Gisa+and+Geralf#paper" rel="popover">Gisa and Geralf</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.69
+1.66
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2523,7 +2523,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image1="https://cdn1.mtggoldfish.com/images/gf/Brisela%252C%2BVoice%2Bof%2BNightmares%2B%255BEMN%255D.jpg" data-full-image="https://cdn1.mtggoldfish.com/images/gf/Gisela%252C%2Bthe%2BBroken%2BBlade%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Gisela+the+Broken+Blade#paper" rel="popover">Gisela, the Broken Blade</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-10.10
+10.15
 
 <span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
@@ -2532,34 +2532,34 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Grim%2BFlayer%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Grim+Flayer#paper" rel="popover">Grim Flayer</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-20.82
+21.39
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Ishkanah%252C%2BGrafwidow%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Ishkanah+Grafwidow#paper" rel="popover">Ishkanah, Grafwidow</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-8.51
+8.83
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Liliana%252C%2Bthe%2BLast%2BHope%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Liliana+the+Last+Hope#paper" rel="popover">Liliana, the Last Hope</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-39.99
+40.00
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Mind%2527s%2BDilation%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Minds+Dilation#paper" rel="popover">Mind&#39;s Dilation</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.07
+1.08
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2568,16 +2568,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Mirrorwing%2BDragon%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Mirrorwing+Dragon#paper" rel="popover">Mirrorwing Dragon</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.25
+1.22
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Nahiri%2527s%2BWrath%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Nahiris+Wrath#paper" rel="popover">Nahiri&#39;s Wrath</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.69
+1.67
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2586,25 +2586,25 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Tamiyo%252C%2BField%2BResearcher%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Tamiyo+Field+Researcher#paper" rel="popover">Tamiyo, Field Researcher</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-10.62
+10.53
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Tree%2Bof%2BPerdition%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Tree+of+Perdition#paper" rel="popover">Tree of Perdition</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.62
+2.61
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image1="https://cdn1.mtggoldfish.com/images/gf/Ulrich%252C%2BUncontested%2BAlpha%2B%255BEMN%255D.jpg" data-full-image="https://cdn1.mtggoldfish.com/images/gf/Ulrich%2Bof%2Bthe%2BKrallenhorde%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Ulrich+of+the+Krallenhorde#paper" rel="popover">Ulrich of the Krallenhorde</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.20
+1.19
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2616,7 +2616,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Bedlam%2BReveler%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Bedlam+Reveler#paper" rel="popover">Bedlam Reveler</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.18
+2.15
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2625,7 +2625,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image1="https://cdn1.mtggoldfish.com/images/gf/Brisela%252C%2BVoice%2Bof%2BNightmares%2B%255BEMN%255D.jpg" data-full-image="https://cdn1.mtggoldfish.com/images/gf/Bruna%252C%2Bthe%2BFading%2BLight%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Bruna+the+Fading+Light#paper" rel="popover">Bruna, the Fading Light</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.04
+1.03
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2634,16 +2634,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Collective%2BBrutality%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Collective+Brutality#paper" rel="popover">Collective Brutality</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-6.17
+6.15
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Collective%2BDefiance%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Collective+Defiance#paper" rel="popover">Collective Defiance</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.04
+2.00
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2652,7 +2652,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Collective%2BEffort%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Collective+Effort#paper" rel="popover">Collective Effort</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.57
+0.56
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2661,25 +2661,25 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Cryptbreaker%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Cryptbreaker#paper" rel="popover">Cryptbreaker</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.55
+1.54
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Dark%2BSalvation%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Dark+Salvation#paper" rel="popover">Dark Salvation</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.52
+0.51
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Distended%2BMindbender%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Distended+Mindbender#paper" rel="popover">Distended Mindbender</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.90
+0.89
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2688,7 +2688,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Elder%2BDeep-Fiend%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Elder+Deep-Fiend#paper" rel="popover">Elder Deep-Fiend</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.49
+2.45
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2697,7 +2697,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Eldritch%2BEvolution%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Eldritch+Evolution#paper" rel="popover">Eldritch Evolution</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.49
+2.44
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2708,7 +2708,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.70
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2717,16 +2717,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.64
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image1="https://cdn1.mtggoldfish.com/images/gf/Hanweir%252C%2Bthe%2BWrithing%2BTownship%2B%255BEMN%255D.jpg" data-full-image="https://cdn1.mtggoldfish.com/images/gf/Hanweir%2BGarrison%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Hanweir+Garrison#paper" rel="popover">Hanweir Garrison</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.44
+1.43
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2742,9 +2742,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Lupine%2BPrototype%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Lupine+Prototype#paper" rel="popover">Lupine Prototype</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.74
+0.72
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2760,7 +2760,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Niblis%2Bof%2BFrost%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Niblis+of+Frost#paper" rel="popover">Niblis of Frost</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.58
+0.57
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2769,7 +2769,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Selfless%2BSpirit%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Selfless+Spirit#paper" rel="popover">Selfless Spirit</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-9.37
+9.38
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2778,7 +2778,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sigarda%2527s%2BAid%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Sigardas+Aid#paper" rel="popover">Sigarda&#39;s Aid</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.87
+0.86
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2787,9 +2787,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Spell%2BQueller%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Spell+Queller#paper" rel="popover">Spell Queller</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-7.00
+7.02
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2814,27 +2814,27 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Summary%2BDismissal%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Summary+Dismissal#paper" rel="popover">Summary Dismissal</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.11
+2.12
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Thalia%252C%2BHeretic%2BCathar%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Thalia+Heretic+Cathar#paper" rel="popover">Thalia, Heretic Cathar</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.76
+2.77
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image1="https://cdn1.mtggoldfish.com/images/gf/Abolisher%2Bof%2BBloodlines%2B%255BEMN%255D.jpg" data-full-image="https://cdn1.mtggoldfish.com/images/gf/Voldaren%2BPariah%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Voldaren+Pariah#paper" rel="popover">Voldaren Pariah</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.23
+1.25
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2846,16 +2846,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 1.90
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Incendiary%2BFlow%2B%255BEMN%255D.jpg" data-html="true" data-trigger="hover" href="/price/Eldritch+Moon/Incendiary+Flow#paper" rel="popover">Incendiary Flow</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.12
+1.11
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2865,7 +2865,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Eldritch%2BMoon%2BBooster%2BBox%2B%255BSEALED%255D.jpg" data-html="true" data-trigger="hover" href="/price/Sealed+Product/Eldritch+Moon+Booster+Box#paper" rel="popover">Eldritch Moon Booster Box</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-88.00
+84.99
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2874,7 +2874,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Eldritch%2BMoon%2BFat%2BPack%2B%255BSEALED%255D.jpg" data-html="true" data-trigger="hover" href="/price/Sealed+Product/Eldritch+Moon+Fat+Pack#paper" rel="popover">Eldritch Moon Fat Pack</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-33.49
+33.78
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2938,9 +2938,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image1="https://cdn1.mtggoldfish.com/images/gf/Avacyn%252C%2Bthe%2BPurifier%2B%255BSOI%255D.jpg" data-full-image="https://cdn1.mtggoldfish.com/images/gf/Archangel%2BAvacyn%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Archangel+Avacyn#paper" rel="popover">Archangel Avacyn</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-20.50
+20.78
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2949,7 +2949,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 7.09
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2958,7 +2958,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.81
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2967,7 +2967,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 1.04
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -2983,7 +2983,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Goldnight%2BCastigator%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Goldnight+Castigator#paper" rel="popover">Goldnight Castigator</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.44
+1.42
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -2992,34 +2992,34 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Jace%252C%2BUnraveler%2Bof%2BSecrets%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Jace+Unraveler+of+Secrets#paper" rel="popover">Jace, Unraveler of Secrets</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-9.91
+9.99
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Mindwrack%2BDemon%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Mindwrack+Demon#paper" rel="popover">Mindwrack Demon</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.96
+1.95
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Nahiri%252C%2Bthe%2BHarbinger%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Nahiri+the+Harbinger#paper" rel="popover">Nahiri, the Harbinger</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-17.98
+17.94
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Olivia%252C%2BMobilized%2Bfor%2BWar%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Olivia+Mobilized+for+War#paper" rel="popover">Olivia, Mobilized for War</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.50
+2.49
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3028,7 +3028,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Relentless%2BDead%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Relentless+Dead#paper" rel="popover">Relentless Dead</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-5.47
+5.35
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3037,25 +3037,25 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Seasons%2BPast%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Seasons+Past#paper" rel="popover">Seasons Past</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.22
+1.21
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sigarda%252C%2BHeron%2527s%2BGrace%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Sigarda+Herons+Grace#paper" rel="popover">Sigarda, Heron&#39;s Grace</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.39
+1.38
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sorin%252C%2BGrim%2BNemesis%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Sorin+Grim+Nemesis#paper" rel="popover">Sorin, Grim Nemesis</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-5.50
+5.49
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3064,7 +3064,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image1="https://cdn1.mtggoldfish.com/images/gf/Persistent%2BNightmare%2B%255BSOI%255D.jpg" data-full-image="https://cdn1.mtggoldfish.com/images/gf/Startled%2BAwake%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Startled+Awake#paper" rel="popover">Startled Awake</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.57
+1.56
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3073,7 +3073,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/The%2BGitrog%2BMonster%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/The+Gitrog+Monster#paper" rel="popover">The Gitrog Monster</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.58
+1.57
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3084,7 +3084,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 1.21
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3093,7 +3093,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.62
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3103,25 +3103,25 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Always%2BWatching%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Always+Watching#paper" rel="popover">Always Watching</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.58
+1.56
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Anguished%2BUnmaking%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Anguished+Unmaking#paper" rel="popover">Anguished Unmaking</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.61
+1.60
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Asylum%2BVisitor%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Asylum+Visitor#paper" rel="popover">Asylum Visitor</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.68
+0.67
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3141,7 +3141,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.75
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3150,16 +3150,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 1.70
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Cryptolith%2BRite%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Cryptolith+Rite#paper" rel="popover">Cryptolith Rite</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.00
+0.99
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3175,7 +3175,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Declaration%2Bin%2BStone%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Declaration+in+Stone#paper" rel="popover">Declaration in Stone</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-5.11
+5.08
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3184,7 +3184,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Diregraf%2BColossus%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Diregraf+Colossus#paper" rel="popover">Diregraf Colossus</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.18
+1.17
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3195,7 +3195,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.53
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3211,7 +3211,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Falkenrath%2BGorger%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Falkenrath+Gorger#paper" rel="popover">Falkenrath Gorger</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.11
+1.10
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3220,7 +3220,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Fevered%2BVisions%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Fevered+Visions#paper" rel="popover">Fevered Visions</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.99
+1.98
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3231,7 +3231,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 3.19
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3240,32 +3240,32 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 1.49
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Game%2BTrail%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Game+Trail#paper" rel="popover">Game Trail</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.86
+3.84
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image1="https://cdn1.mtggoldfish.com/images/gf/Vildin-Pack%2BAlpha%2B%255BSOI%255D.jpg" data-full-image="https://cdn1.mtggoldfish.com/images/gf/Geier%2BReach%2BBandit%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Geier+Reach+Bandit#paper" rel="popover">Geier Reach Bandit</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.79
+0.78
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image1="https://cdn1.mtggoldfish.com/images/gf/Westvale%2BCult%2BLeader%2B%255BSOI%255D.jpg" data-full-image="https://cdn1.mtggoldfish.com/images/gf/Hanweir%2BMilitia%2BCaptain%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Hanweir+Militia+Captain#paper" rel="popover">Hanweir Militia Captain</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.67
+0.66
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3276,23 +3276,23 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.54
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Port%2BTown%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Port+Town#paper" rel="popover">Port Town</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.35
+3.39
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Prized%2BAmalgam%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Prized+Amalgam#paper" rel="popover">Prized Amalgam</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.17
+3.13
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3303,7 +3303,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 1.19
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3319,16 +3319,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sin%2BProdder%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Sin+Prodder#paper" rel="popover">Sin Prodder</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.53
+0.52
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Thalia%2527s%2BLieutenant%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Thalias+Lieutenant#paper" rel="popover">Thalia&#39;s Lieutenant</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.56
+1.54
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3337,7 +3337,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image1="https://cdn1.mtggoldfish.com/images/gf/Awoken%2BHorror%2B%255BSOI%255D.jpg" data-full-image="https://cdn1.mtggoldfish.com/images/gf/Thing%2Bin%2Bthe%2BIce%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Thing+in+the+Ice#paper" rel="popover">Thing in the Ice</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-7.77
+7.75
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3346,25 +3346,25 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Tireless%2BTracker%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Tireless+Tracker#paper" rel="popover">Tireless Tracker</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-4.27
+4.29
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/To%2Bthe%2BSlaughter%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/To+the+Slaughter#paper" rel="popover">To the Slaughter</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.65
+0.64
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Traverse%2Bthe%2BUlvenwald%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Traverse+the+Ulvenwald#paper" rel="popover">Traverse the Ulvenwald</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.90
+2.88
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3375,7 +3375,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 2.95
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3385,7 +3385,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image1="https://cdn1.mtggoldfish.com/images/gf/Krallenhorde%2BHowler%2B%255BSOI%255D.jpg" data-full-image="https://cdn1.mtggoldfish.com/images/gf/Duskwatch%2BRecruiter%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Duskwatch+Recruiter#paper" rel="popover">Duskwatch Recruiter</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.32
+1.28
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3394,9 +3394,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image1="https://cdn1.mtggoldfish.com/images/gf/Lambholt%2BButcher%2B%255BSOI%255D.jpg" data-full-image="https://cdn1.mtggoldfish.com/images/gf/Lambholt%2BPacifist%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Lambholt+Pacifist#paper" rel="popover">Lambholt Pacifist</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.54
+0.53
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3405,7 +3405,19 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 1.02
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+
+</div>
+</dd>
+</dl>
+<h4 class='priceList-rarity-header'>Common</h4>
+<dl class='priceList-prices'>
+<dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Thraben%2BInspector%2B%255BSOI%255D.jpg" data-html="true" data-trigger="hover" href="/price/Shadows+over+Innistrad/Thraben+Inspector#paper" rel="popover">Thraben Inspector</a></dt>
+<dd class='priceList-prices-price'>
+<div class='priceList-price-price-wrapper'>
+0.51
+
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3415,9 +3427,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Shadows%2Bover%2BInnistrad%2BBooster%2BBox%2B%255BSEALED%255D.jpg" data-html="true" data-trigger="hover" href="/price/Sealed+Product/Shadows+over+Innistrad+Booster+Box#paper" rel="popover">Shadows over Innistrad Booster Box</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-79.99
+79.95
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3435,7 +3447,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 34.95
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3497,7 +3509,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Chandra%252C%2BFlamecaller%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Chandra+Flamecaller#paper" rel="popover">Chandra, Flamecaller</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-5.37
+5.25
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3508,7 +3520,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 2.85
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3524,25 +3536,25 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Inverter%2Bof%2BTruth%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Inverter+of+Truth#paper" rel="popover">Inverter of Truth</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.70
+0.68
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Kalitas%252C%2BTraitor%2Bof%2BGhet%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Kalitas+Traitor+of+Ghet#paper" rel="popover">Kalitas, Traitor of Ghet</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-20.99
+20.94
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Kozilek%2527s%2BReturn%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Kozileks+Return#paper" rel="popover">Kozilek&#39;s Return</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-8.95
+8.90
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3551,18 +3563,18 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Kozilek%252C%2Bthe%2BGreat%2BDistortion%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Kozilek+the+Great+Distortion#paper" rel="popover">Kozilek, the Great Distortion</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.50
+3.48
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Linvala%252C%2Bthe%2BPreserver%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Linvala+the+Preserver#paper" rel="popover">Linvala, the Preserver</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.20
+2.19
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3578,9 +3590,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Nissa%252C%2BVoice%2Bof%2BZendikar%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Nissa+Voice+of+Zendikar#paper" rel="popover">Nissa, Voice of Zendikar</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-5.40
+5.39
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3589,7 +3601,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 1.07
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3598,7 +3610,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 3.19
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3626,7 +3638,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Eldrazi%2BMimic%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Eldrazi+Mimic#paper" rel="popover">Eldrazi Mimic</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.67
+0.66
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3635,9 +3647,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Goblin%2BDark-Dwellers%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Goblin+Dark-Dwellers#paper" rel="popover">Goblin Dark-Dwellers</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.01
+0.99
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3653,45 +3665,36 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Matter%2BReshaper%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Matter+Reshaper#paper" rel="popover">Matter Reshaper</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.00
-
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
-
-</div>
-</dd>
-<dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Needle%2BSpires%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Needle+Spires#paper" rel="popover">Needle Spires</a></dt>
-<dd class='priceList-prices-price'>
-<div class='priceList-price-price-wrapper'>
-3.92
-
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
-
-</div>
-</dd>
-<dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Oath%2Bof%2BNissa%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Oath+of+Nissa#paper" rel="popover">Oath of Nissa</a></dt>
-<dd class='priceList-prices-price'>
-<div class='priceList-price-price-wrapper'>
 1.99
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
-<dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Reality%2BSmasher%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Reality+Smasher#paper" rel="popover">Reality Smasher</a></dt>
+<dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Needle%2BSpires%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Needle+Spires#paper" rel="popover">Needle Spires</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.00
+3.89
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
-<dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sea%2BGate%2BWreckage%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Sea+Gate+Wreckage#paper" rel="popover">Sea Gate Wreckage</a></dt>
+<dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Oath%2Bof%2BNissa%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Oath+of+Nissa#paper" rel="popover">Oath of Nissa</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.51
+1.96
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+
+</div>
+</dd>
+<dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Reality%2BSmasher%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Reality+Smasher#paper" rel="popover">Reality Smasher</a></dt>
+<dd class='priceList-prices-price'>
+<div class='priceList-price-price-wrapper'>
+2.99
+
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3707,16 +3710,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Stoneforge%2BMasterwork%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Stoneforge+Masterwork#paper" rel="popover">Stoneforge Masterwork</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.62
+0.61
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sylvan%2BAdvocate%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Sylvan+Advocate#paper" rel="popover">Sylvan Advocate</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.98
+2.92
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3725,16 +3728,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Thought-Knot%2BSeer%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Thought-Knot+Seer#paper" rel="popover">Thought-Knot Seer</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-5.42
+5.41
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Wandering%2BFumarole%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Wandering+Fumarole#paper" rel="popover">Wandering Fumarole</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-5.76
+5.75
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3746,7 +3749,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Grasp%2Bof%2BDarkness%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Grasp+of+Darkness#paper" rel="popover">Grasp of Darkness</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.07
+1.09
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3757,7 +3760,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.71
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3766,16 +3769,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 1.05
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Void%2BShatter%2B%255BOGW%255D.jpg" data-html="true" data-trigger="hover" href="/price/Oath+of+the+Gatewatch/Void+Shatter#paper" rel="popover">Void Shatter</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.10
+1.13
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3806,9 +3809,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Oath%2Bof%2Bthe%2BGatewatch%2BFat%2BPack%2B%255BSEALED%255D.jpg" data-html="true" data-trigger="hover" href="/price/Sealed+Product/Oath+of+the+Gatewatch+Fat+Pack#paper" rel="popover">Oath of the Gatewatch Fat Pack</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-36.00
+24.95
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3879,7 +3882,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Drana%252C%2BLiberator%2Bof%2BMalakir%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Drana+Liberator+of+Malakir#paper" rel="popover">Drana, Liberator of Malakir</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.57
+3.51
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3888,7 +3891,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Gideon%252C%2BAlly%2Bof%2BZendikar%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Gideon+Ally+of+Zendikar#paper" rel="popover">Gideon, Ally of Zendikar</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-28.74
+28.28
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3897,25 +3900,25 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Greenwarden%2Bof%2BMurasa%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Greenwarden+of+Murasa#paper" rel="popover">Greenwarden of Murasa</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.05
+1.04
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Kiora%252C%2BMaster%2Bof%2Bthe%2BDepths%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Kiora+Master+of+the+Depths#paper" rel="popover">Kiora, Master of the Depths</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.59
+2.63
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Ob%2BNixilis%2BReignited%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Ob+Nixilis+Reignited#paper" rel="popover">Ob Nixilis Reignited</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.88
+3.82
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3924,9 +3927,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Oblivion%2BSower%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Oblivion+Sower#paper" rel="popover">Oblivion Sower</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.36
+1.35
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3942,18 +3945,18 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Part%2Bthe%2BWaterveil%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Part+the+Waterveil#paper" rel="popover">Part the Waterveil</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.45
+3.44
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Quarantine%2BField%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Quarantine+Field#paper" rel="popover">Quarantine Field</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.16
+1.15
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3969,7 +3972,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Ulamog%252C%2Bthe%2BCeaseless%2BHunger%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Ulamog+the+Ceaseless+Hunger#paper" rel="popover">Ulamog, the Ceaseless Hunger</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-13.13
+13.00
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -3987,9 +3990,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Void%2BWinnower%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Void+Winnower#paper" rel="popover">Void Winnower</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.79
+1.78
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -3999,16 +4002,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Ally%2BEncampment%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Ally+Encampment#paper" rel="popover">Ally Encampment</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.55
+0.54
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Canopy%2BVista%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Canopy+Vista#paper" rel="popover">Canopy Vista</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.04
+2.02
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4019,14 +4022,14 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 3.67
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Conduit%2Bof%2BRuin%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Conduit+of+Ruin#paper" rel="popover">Conduit of Ruin</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.67
+0.66
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4037,7 +4040,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.76
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4046,16 +4049,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.60
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Lumbering%2BFalls%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Lumbering+Falls#paper" rel="popover">Lumbering Falls</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.20
+1.19
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4064,7 +4067,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.56
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4080,16 +4083,16 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Prairie%2BStream%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Prairie+Stream#paper" rel="popover">Prairie Stream</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.51
+3.50
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Radiant%2BFlames%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Radiant+Flames#paper" rel="popover">Radiant Flames</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-0.84
+0.83
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4098,9 +4101,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Ruinous%2BPath%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Ruinous+Path#paper" rel="popover">Ruinous Path</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-1.48
+1.46
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4116,7 +4119,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Shambling%2BVent%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Shambling+Vent#paper" rel="popover">Shambling Vent</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.11
+3.05
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4127,23 +4130,23 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.67
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Smoldering%2BMarsh%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Smoldering+Marsh#paper" rel="popover">Smoldering Marsh</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-3.59
+3.64
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sunken%2BHollow%2B%255BBFZ%255D.jpg" data-html="true" data-trigger="hover" href="/price/Battle+for+Zendikar/Sunken+Hollow#paper" rel="popover">Sunken Hollow</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-2.79
+2.80
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4157,7 +4160,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 1.00
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4184,7 +4187,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 0.53
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4196,7 +4199,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 93.95
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4212,9 +4215,9 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Battle%2Bfor%2BZendikar%2BFat%2BPack%2B%255BSEALED%255D.jpg" data-html="true" data-trigger="hover" href="/price/Sealed+Product/Battle+for+Zendikar+Fat+Pack#paper" rel="popover">Battle for Zendikar Fat Pack</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-55.00
+54.94
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4285,43 +4288,43 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Ancient%2BTomb%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Ancient+Tomb#paper" rel="popover">Ancient Tomb</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-109.05
+108.79
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Ancient%2BTomb%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Ancient+Tomb#paper" rel="popover">Ancient Tomb</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-109.05
+108.79
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Arid%2BMesa%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Arid+Mesa#paper" rel="popover">Arid Mesa</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-119.99
+118.75
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Arid%2BMesa%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Arid+Mesa#paper" rel="popover">Arid Mesa</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-119.99
+118.75
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Blood%2BCrypt%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Blood+Crypt#paper" rel="popover">Blood Crypt</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-62.99
+62.98
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4330,7 +4333,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Blood%2BCrypt%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Blood+Crypt#paper" rel="popover">Blood Crypt</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-62.99
+62.98
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4339,7 +4342,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Bloodstained%2BMire%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Bloodstained+Mire#paper" rel="popover">Bloodstained Mire</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-109.26
+108.97
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4348,7 +4351,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Bloodstained%2BMire%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Bloodstained+Mire#paper" rel="popover">Bloodstained Mire</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-109.26
+108.97
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4375,7 +4378,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Canopy%2BVista%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Canopy+Vista#paper" rel="popover">Canopy Vista</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-30.79
+30.59
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4384,7 +4387,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Canopy%2BVista%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Canopy+Vista#paper" rel="popover">Canopy Vista</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-30.79
+30.59
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4393,43 +4396,43 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Cascade%2BBluffs%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Cascade+Bluffs#paper" rel="popover">Cascade Bluffs</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-48.38
+48.11
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Cascade%2BBluffs%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Cascade+Bluffs#paper" rel="popover">Cascade Bluffs</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-48.38
+48.11
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Cinder%2BGlade%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Cinder+Glade#paper" rel="popover">Cinder Glade</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-32.97
+33.11
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Cinder%2BGlade%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Cinder+Glade#paper" rel="popover">Cinder Glade</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-32.97
+33.11
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Dust%2BBowl%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Dust+Bowl#paper" rel="popover">Dust Bowl</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-34.84
+34.49
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4438,7 +4441,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Dust%2BBowl%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Dust+Bowl#paper" rel="popover">Dust Bowl</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-34.84
+34.49
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4447,54 +4450,54 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Eye%2Bof%2BUgin%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Eye+of+Ugin#paper" rel="popover">Eye of Ugin</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-60.12
+60.04
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Eye%2Bof%2BUgin%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Eye+of+Ugin#paper" rel="popover">Eye of Ugin</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-60.12
+60.04
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Fetid%2BHeath%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Fetid+Heath#paper" rel="popover">Fetid Heath</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-47.95
+47.55
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Fetid%2BHeath%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Fetid+Heath#paper" rel="popover">Fetid Heath</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-47.95
+47.55
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Fire-Lit%2BThicket%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Fire-Lit+Thicket#paper" rel="popover">Fire-Lit Thicket</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-40.66
+40.00
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Fire-Lit%2BThicket%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Fire-Lit+Thicket#paper" rel="popover">Fire-Lit Thicket</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-40.66
+40.00
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4503,7 +4506,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 46.13
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4512,43 +4515,43 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 46.13
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Flooded%2BStrand%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Flooded+Strand#paper" rel="popover">Flooded Strand</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-154.85
+153.75
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Flooded%2BStrand%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Flooded+Strand#paper" rel="popover">Flooded Strand</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-154.85
+153.75
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Forbidden%2BOrchard%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Forbidden+Orchard#paper" rel="popover">Forbidden Orchard</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-33.89
+33.91
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Forbidden%2BOrchard%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Forbidden+Orchard#paper" rel="popover">Forbidden Orchard</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-33.89
+33.91
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4557,7 +4560,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 83.99
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4566,25 +4569,25 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 83.99
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Graven%2BCairns%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Graven+Cairns#paper" rel="popover">Graven Cairns</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-34.97
+34.99
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Graven%2BCairns%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Graven+Cairns#paper" rel="popover">Graven Cairns</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-34.97
+34.99
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4593,7 +4596,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 62.98
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4602,14 +4605,14 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 62.98
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Horizon%2BCanopy%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Horizon+Canopy#paper" rel="popover">Horizon Canopy</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-97.67
+94.61
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4618,7 +4621,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Horizon%2BCanopy%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Horizon+Canopy#paper" rel="popover">Horizon Canopy</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-97.67
+94.61
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4645,7 +4648,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Mana%2BConfluence%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Mana+Confluence#paper" rel="popover">Mana Confluence</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-47.37
+47.49
 
 <span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
@@ -4654,7 +4657,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Mana%2BConfluence%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Mana+Confluence#paper" rel="popover">Mana Confluence</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-47.37
+47.49
 
 <span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
@@ -4663,7 +4666,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Marsh%2BFlats%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Marsh+Flats#paper" rel="popover">Marsh Flats</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-96.22
+95.53
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4672,7 +4675,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Marsh%2BFlats%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Marsh+Flats#paper" rel="popover">Marsh Flats</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-96.22
+95.53
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4681,43 +4684,43 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Misty%2BRainforest%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Misty+Rainforest#paper" rel="popover">Misty Rainforest</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-195.42
+193.42
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Misty%2BRainforest%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Misty+Rainforest#paper" rel="popover">Misty Rainforest</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-195.42
+193.42
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Mystic%2BGate%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Mystic+Gate#paper" rel="popover">Mystic Gate</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-44.79
+44.88
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Mystic%2BGate%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Mystic+Gate#paper" rel="popover">Mystic Gate</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-44.79
+44.88
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Overgrown%2BTomb%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Overgrown+Tomb#paper" rel="popover">Overgrown Tomb</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-79.97
+79.95
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4726,7 +4729,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Overgrown%2BTomb%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Overgrown+Tomb#paper" rel="popover">Overgrown Tomb</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-79.97
+79.95
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4735,7 +4738,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Polluted%2BDelta%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Polluted+Delta#paper" rel="popover">Polluted Delta</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-202.36
+200.00
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4744,7 +4747,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Polluted%2BDelta%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Polluted+Delta#paper" rel="popover">Polluted Delta</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-202.36
+200.00
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4753,18 +4756,18 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Prairie%2BStream%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Prairie+Stream#paper" rel="popover">Prairie Stream</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-31.85
+31.92
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Prairie%2BStream%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Prairie+Stream#paper" rel="popover">Prairie Stream</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-31.85
+31.92
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4789,18 +4792,18 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sacred%2BFoundry%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Sacred+Foundry#paper" rel="popover">Sacred Foundry</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-69.58
+69.55
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sacred%2BFoundry%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Sacred+Foundry#paper" rel="popover">Sacred Foundry</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-69.58
+69.55
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4809,7 +4812,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 230.99
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4818,14 +4821,14 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 230.99
 
-<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
+<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Smoldering%2BMarsh%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Smoldering+Marsh#paper" rel="popover">Smoldering Marsh</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-28.04
+28.03
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4834,7 +4837,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Smoldering%2BMarsh%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Smoldering+Marsh#paper" rel="popover">Smoldering Marsh</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-28.04
+28.03
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4843,7 +4846,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Steam%2BVents%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Steam+Vents#paper" rel="popover">Steam Vents</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-92.25
+92.41
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4852,7 +4855,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Steam%2BVents%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Steam+Vents#paper" rel="popover">Steam Vents</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-92.25
+92.41
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4861,7 +4864,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Stomping%2BGround%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Stomping+Ground#paper" rel="popover">Stomping Ground</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-77.29
+76.95
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4870,7 +4873,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Stomping%2BGround%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Stomping+Ground#paper" rel="popover">Stomping Ground</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-77.29
+76.95
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4897,18 +4900,18 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sunken%2BHollow%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Sunken+Hollow#paper" rel="popover">Sunken Hollow</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-31.46
+31.43
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Sunken%2BHollow%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Sunken+Hollow#paper" rel="popover">Sunken Hollow</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-31.46
+31.43
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4935,7 +4938,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 33.60
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4944,25 +4947,25 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <div class='priceList-price-price-wrapper'>
 33.60
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Temple%2BGarden%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Temple+Garden#paper" rel="popover">Temple Garden</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-65.00
+64.99
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Temple%2BGarden%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Temple+Garden#paper" rel="popover">Temple Garden</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-65.00
+64.99
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
@@ -4987,7 +4990,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Verdant%2BCatacombs%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Verdant+Catacombs#paper" rel="popover">Verdant Catacombs</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-179.84
+177.65
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -4996,7 +4999,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Verdant%2BCatacombs%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Verdant+Catacombs#paper" rel="popover">Verdant Catacombs</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-179.84
+177.65
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -5005,61 +5008,61 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Wasteland%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Wasteland#paper" rel="popover">Wasteland</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-116.18
+117.66
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Wasteland%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Wasteland#paper" rel="popover">Wasteland</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-116.18
+117.66
 
-<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-rising glyphicon glyphicon-arrow-up priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Watery%2BGrave%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Watery+Grave#paper" rel="popover">Watery Grave</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-73.49
+73.46
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Watery%2BGrave%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Watery+Grave#paper" rel="popover">Watery Grave</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-73.49
+73.46
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Windswept%2BHeath%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Windswept+Heath#paper" rel="popover">Windswept Heath</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-110.25
+109.98
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Windswept%2BHeath%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Windswept+Heath#paper" rel="popover">Windswept Heath</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-110.25
+109.98
 
-<span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
+<span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
 </div>
 </dd>
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Wooded%2BBastion%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Wooded+Bastion#paper" rel="popover">Wooded Bastion</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-36.74
+36.57
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -5068,7 +5071,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Wooded%2BBastion%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Wooded+Bastion#paper" rel="popover">Wooded Bastion</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-36.74
+36.57
 
 <span class='color-declining glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -5077,7 +5080,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Wooded%2BFoothills%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions/Wooded+Foothills#paper" rel="popover">Wooded Foothills</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-111.92
+111.76
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -5086,7 +5089,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 <dt class='priceList-prices-card'><a data-full-image="https://cdn1.mtggoldfish.com/images/gf/Wooded%2BFoothills%2B%255BEXP%255D.jpg" data-html="true" data-trigger="hover" href="/price/Zendikar+Expeditions:Foil/Wooded+Foothills#paper" rel="popover">Wooded Foothills</a></dt>
 <dd class='priceList-prices-price'>
 <div class='priceList-price-price-wrapper'>
-111.92
+111.76
 
 <span class='color-clear glyphicon glyphicon-arrow-down priceList-price-indicator'></span>
 
@@ -5096,7 +5099,7 @@ document.write('<div id="cdm-zone-' + num + '"></div>');
 </div>
 </div>
 <p class='priceList-lastUpdated'>
-last updated <abbr class="timeago" title="2016-12-08T14:46:26Z">2016-12-08 14:46:26 UTC</abbr>
+last updated <abbr class="timeago" title="2016-12-09T15:46:28Z">2016-12-09 15:46:28 UTC</abbr>
 </p>
 
 </div>
@@ -5139,7 +5142,7 @@ last updated <abbr class="timeago" title="2016-12-08T14:46:26Z">2016-12-08 14:46
 </div>
 <div class='layout-newsletter-panel'>
 <h4>Get Email Updates</h4>
-<form accept-charset="UTF-8" action="/subscriptions" class="form" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="GzRKvmHofB7gs1bNI616J8aRF2kxyRUzrFk8f61hC30=" /></div>
+<form accept-charset="UTF-8" action="/subscriptions" class="form" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="yi2ph/XTgRdA9mmQrER7Cgnxm+4D3tXGZeG8DU/l5ww=" /></div>
 <input class="form-control layout-newsletter-input" id="subscription_email" name="subscription[email]" type="text" value="" />
 <input class="btn btn-default layout-newsletter-btn" name="commit" type="submit" value="Sign up!" />
 </form>
@@ -5220,7 +5223,7 @@ Remember me
 </div>
 <hr>
 <h4>Sign in Using an MTGGoldfish Account</h4>
-<form accept-charset="UTF-8" action="/auth/identity/callback" class="form layout-auth-identity-form" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="GzRKvmHofB7gs1bNI616J8aRF2kxyRUzrFk8f61hC30=" /></div>
+<form accept-charset="UTF-8" action="/auth/identity/callback" class="form layout-auth-identity-form" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="yi2ph/XTgRdA9mmQrER7Cgnxm+4D3tXGZeG8DU/l5ww=" /></div>
 <input class="login-override_origin" id="override_origin" name="override_origin" type="hidden" value="" />
 <div class='form-group'>
 <label>Email Address</label>

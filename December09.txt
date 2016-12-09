@@ -1,0 +1,126 @@
+Allosaurus Rider 4.05 1
+Ally Encampment 0.54 1
+Assault Formation 1.13 1
+Battlefield Forge 1.08 1
+Boundless Realms 2.99 1
+Bygone Bishop 0.75 4
+Champion of the Parish 2.25 1
+Choked Estuary 1.7 1
+Collective Effort 0.56 1
+Conduit of Ruin 0.66 1
+Contagion Engine 12.13 1
+Dark Salvation 0.51 2
+Darksteel Forge 5.95 1
+Day's Undoing 3.49 2
+Deathmist Raptor 1.49 1
+Depala, Pilot Exemplar 0.95 1
+Distended Mindbender 0.89 1
+Dragon Tempest 1.0 2
+Dragonskull Summit 2.49 1
+Dromoka's Command 1.52 1
+Echo Mage 0.55 1
+Eidolon of Countless Battles 0.63 4
+Elbrus, the Binding Blade 4.06 1
+Emrakul, the Promised End 19.0 1
+Enchanted Evening 4.45 1
+Ephara, God of the Polis 1.73 1
+Epic Experiment 0.77 1
+Erebos's Titan 0.89 2
+Exotic Orchard 2.9 1
+Fabricate 2.57 1
+Falkenrath Gorger 1.1 1
+Fatespinner 2.7 1
+Genesis Wave 6.98 1
+Ghost Quarter 1.06 1
+Gilded Lotus 9.22 1
+Glare of Subdual 1.06 1
+Goblin Bushwhacker 1.08 1
+Goblin Dark-Dwellers 0.99 1
+Goblin King 1.98 1
+Goblin Rabblemaster 2.19 1
+Green Sun's Zenith 4.99 1
+Grimoire of the Dead 3.28 1
+Hallowed Fountain 6.82 1
+Heliod, God of the Sun 3.53 1
+Herald of Leshrac 2.84 1
+Hero of Iroas 0.71 3
+Hex Parasite 0.56 1
+Hissing Quagmire 3.33 1
+Hythonia the Cruel 0.68 1
+Imprisoned in the Moon 0.51 1
+Indomitable Ancients 2.97 1
+Intet, the Dreamer 2.24 1
+Inverter of Truth 0.68 1
+Jace, the Living Guildpact 2.59 1
+Jin-Gitaxias, Core Augur 12.99 1
+Kalitas, Bloodchief of Ghet 7.23 1
+Kambal, Consul of Allocation 0.56 2
+Kiki-Jiki, Mirror Breaker 13.17 1
+Kiln Fiend 1.01 1
+Kiora, Master of the Depths 2.63 1
+Knight Exemplar 2.9 1
+Knight of the Reliquary 8.99 1
+Kozilek, Butcher of Truth 20.98 1
+Legion's Initiative 1.44 1
+Liege of the Tangle 3.38 1
+Lighthouse Chronologist 9.82 1
+Lord of the Void 3.71 1
+Loxodon Smiter 1.53 1
+Master of Cruelties 4.58 1
+Mirrorweave 2.17 1
+Monastery Siege 0.57 1
+Mutagenic Growth 0.95 1
+Needle Spires 3.89 1
+Nicol Bolas, Planeswalker 9.21 1
+Nissa, Worldwaker 9.41 2
+Obelisk of Urd 2.44 1
+Oblivion Sower 1.35 1
+Odric, Master Tactician 1.61 1
+Ojutai's Command 1.22 1
+Order of Whiteclay 2.34 2
+Panoptic Mirror 3.14 1
+Pharika, God of Affliction 2.19 1
+Primalcrux 6.56 1
+Prismatic Omen 14.49 1
+Realms Uncharted 2.58 1
+Reflector Mage 1.05 3
+Reforge the Soul 2.14 1
+Rootbound Crag 1.84 1
+Ruinous Path 1.46 1
+Sarkhan Vol 10.58 1
+Seasons Past 1.21 1
+Seismic Assault 1.69 1
+Serum Visions 3.0 1
+Shadowborn Demon 0.99 1
+Shambling Vent 3.05 1
+Shivan Reef 2.18 1
+Sin Prodder 0.52 1
+Smoldering Marsh 28.03 1
+Sphinx's Tutelage 1.51 1
+Splinter Twin 3.56 2
+Stasis Snare 0.93 1
+Stirring Wildwood 1.92 1
+Stitch in Time 3.56 1
+Temporal Extortion 4.0 1
+Teneb, the Harvester 1.63 1
+Thespian's Stage 2.69 3
+Thopter Assembly 0.54 1
+Thopter Spy Network 0.61 1
+Thunderbreak Regent 1.07 1
+Tidebinder Mage 0.81 1
+Time Warp 17.98 1
+Toolcraft Exemplar 1.37 4
+Tree of Perdition 2.61 2
+Tree of Redemption 2.64 3
+Ulamog, the Infinite Gyre 16.4 1
+Umbra Mystic 0.89 1
+Undergrowth Champion 1.07 3
+Urza's Mine 3.17 1
+Urza's Power Plant 3.19 4
+Urza's Tower 3.56 1
+Vampire Nocturnus 5.08 1
+Wandering Fumarole 5.75 1
+Witchstalker 0.54 2
+Woodland Bellower 1.13 1
+Worldspine Wurm 4.53 1
+Zurgo Bellstriker 0.58 1
